@@ -11,7 +11,7 @@ import (
 func Pb() error {
 	//mg.Deps(Clean)
 	fmt.Println("Building protobuf files...")
-	_, err := exec.Command("protoc", "--go_out=greet/greetpb", "greet/greetpb/greet.proto").Output()
+	_, err := exec.Command("protoc", "--go_out=greet", "greet/greetpb/greet.proto").Output()
 	if err != nil {
 		log.Fatal(err)
 	}
