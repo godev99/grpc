@@ -3,7 +3,7 @@ module greet_server
 go 1.22.4
 
 require (
-	github.com/godev99/grpc v0.0.0-20240605135450-5cfd539e8f19
+	github.com/godev99/grpc v0.0.0-20240605152525-6aca13e9dfa5
 	google.golang.org/grpc v1.64.0
 )
 

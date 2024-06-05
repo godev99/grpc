@@ -18,4 +18,15 @@ func main() {
 
 	c := greetpb.NewGreetServiceClient(cc)
 	fmt.Printf("Created client: %f", c)
+
+	req := &greetpb.GreetRequest{FirstName: "gab", LastName: "ivanes"}
+
+	if err != nil {
+		log.Fatalf("could not greet: %v", err)
+	}
+	log.Printf("Greeting: %s", r.GetMessage())
+	request := greetpb.Greeting{"FirstName": "Bob", "LastName": "Bibi"}
+
+	fmt.Println("call greet:", c.Greet)
+
 }

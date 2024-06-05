@@ -1,5 +1,7 @@
 github.com/godev99/grpc v0.0.0-20240605135450-5cfd539e8f19 h1:SpBztcv9JzBQQ2NMIXWuNtKskbVsIs/0LLyHWVsikzE=
 github.com/godev99/grpc v0.0.0-20240605135450-5cfd539e8f19/go.mod h1:lgARc5njPIGfPCUxhG+EatmtylJGUhM7X9nfKJvbdKo=
+github.com/godev99/grpc v0.0.0-20240605152525-6aca13e9dfa5 h1:zku8oJt9WPN3NV3ytjCcyLMFQUuspD/AGoxyvFNdQkI=
+github.com/godev99/grpc v0.0.0-20240605152525-6aca13e9dfa5/go.mod h1:lgARc5njPIGfPCUxhG+EatmtylJGUhM7X9nfKJvbdKo=
 github.com/google/go-cmp v0.6.0 h1:ofyhxvXcZhMsU5ulbFiLKl/XBFqE1GSq7atu8tAmTRI=
 github.com/google/go-cmp v0.6.0/go.mod h1:17dUlkBOakJ0+DkrSSNjCkIjxS6bF9zb3elmeNGIjoY=
 golang.org/x/net v0.23.0 h1:7EYJ93RZ9vYSZAIb2x3lnuvqO5zneoD6IvWjuhfxjTs=

@@ -16,7 +16,7 @@ type server struct {
 }
 
 func (s *server) Greet(ctx context.Context, in *greetpb.GreetRequest) (*greetpb.GreetResponse, error) {
-	return &pb.HelloReply{Message: "Hello again " + in.GetName()}, nil
+	return &greetpb.GreetResponse{Result: "Hello " + in.Greeting.FirstName + " " + in.Greeting.LastName}, nil
 }
 
 func main() {
