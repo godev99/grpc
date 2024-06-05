@@ -4,7 +4,7 @@ import (
 	"log"
 	"net"
 
-	"greetpb"
+	"github.com/godev99/grpc/greet/greetpb"
 
 	"google.golang.org/grpc"
 )
