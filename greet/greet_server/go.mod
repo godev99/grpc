@@ -1,4 +1,4 @@
-module github.com/godev99/grpc/greet/greet_server
+module greet_server
 
 go 1.22.4
 
