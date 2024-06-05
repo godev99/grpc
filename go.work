@@ -2,5 +2,6 @@ go 1.22.4
 
 use (
 	./greet/greet_server
+	./greet/greet_client
 	./magefiles
 )

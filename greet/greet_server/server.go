@@ -1,6 +1,8 @@
 package main
 
 import (
+	"context"
+	"fmt"
 	"log"
 	"net"
 
@@ -10,6 +12,11 @@ import (
 )
 
 type server struct {
+	greetpb.UnimplementedGreetServiceServer
+}
+
+func (s *server) Greet(ctx context.Context, in *greetpb.GreetRequest) (*greetpb.GreetResponse, error) {
+	return &pb.HelloReply{Message: "Hello again " + in.GetName()}, nil
 }
 
 func main() {
@@ -24,4 +31,6 @@ func main() {
 	if err := s.Serve(listener); err != nil {
 		log.Fatalf("Failed to serve: %v", err)
 	}
+
+	fmt.Println("Hello gRPC server !")
 }
