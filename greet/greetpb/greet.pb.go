@@ -4,7 +4,7 @@
 // 	protoc        v5.27.0
 // source: greet/greetpb/greet.proto
 
-package greetpb
+package "github.com/godev99/grpc/greet/greetpb"
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
